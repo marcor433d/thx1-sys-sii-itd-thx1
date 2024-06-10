@@ -1,0 +1,13 @@
+.container-section--main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-total {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
