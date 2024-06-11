@@ -32,7 +32,7 @@ const CareersPage = () => {
               altText="Licenciatura en Administración"
               title="Licenciatura en Administración"
               description="Aprende a liderar y gestionar empresas de éxito."
-              link="#"
+              link="/career/administracion"
             />
 
             <CareerCard
@@ -44,7 +44,7 @@ const CareersPage = () => {
                 </>
               }
               description="Estudia los procesos químicos que ocurren en los organismos vivos."
-              link="#"
+              link="/career/bioquimica"
             />
             <CareerCard
               imgSrc="../../src/assets/images/carreras/ele-img.jpg"
@@ -55,14 +55,14 @@ const CareersPage = () => {
                 </>
               }
               description="Diseña y desarrolla sistemas eléctricos y electrónicos."
-              link="#"
+              link="/career/electrica"
             />
             <CareerCard
               imgSrc="../../src/assets/images/carreras/arq-img.webp"
               altText="Arquitectura"
               title="Arquitectura"
               description="Diseña y crea espacios funcionales y estéticamente agradables."
-              link="#"
+              link="/career/arquitectura"
             />
             <CareerCard
               imgSrc="../../src/assets/images/carreras/civ-img.jpg"
@@ -73,7 +73,7 @@ const CareersPage = () => {
                 </>
               }
               description="Planifica, diseña y construye infraestructura para el desarrollo de la sociedad."
-              link="#"
+              link="/career/civil"
             />
 
             <CareerCard
@@ -81,7 +81,7 @@ const CareersPage = () => {
               altText="Ingeniería en Gestión Empresarial"
               title="Ingeniería en Gestión Empresarial"
               description="Combina conocimientos de ingeniería y administración para gestionar empresas de manera eficiente."
-              link="#"
+              link="/career/gestion"
             />
             <CareerCard
               imgSrc="../../src/assets/images/carreras/inf-img.jpeg"
@@ -92,7 +92,7 @@ const CareersPage = () => {
                 </>
               }
               description="Diseña y desarrolla sistemas informáticos avanzados."
-              link="#"
+              link="/career/informatica"
             />
 
             <CareerCard
@@ -104,7 +104,7 @@ const CareersPage = () => {
                 </>
               }
               description="Combina la mecánica, la electrónica y la informática para crear sistemas automatizados."
-              link="#"
+              link="/career/mecatronica"
             />
             <CareerCard
               imgSrc=".../../src/assets/images/carreras/ind-img.jpeg"
@@ -115,7 +115,7 @@ const CareersPage = () => {
                 </>
               }
               description="Optimiza procesos y sistemas para mejorar la eficiencia y la productividad."
-              link="#"
+              link="/career/industrial"
             />
 
             <CareerCard
@@ -127,7 +127,7 @@ const CareersPage = () => {
                 </>
               }
               description="Diseña, desarrolla y mantiene sistemas mecánicos."
-              link="#"
+              link="/career/mecanica"
             />
             <CareerCard
               imgSrc="../../src/assets/images/carreras/qui-img.jpg"
@@ -138,7 +138,7 @@ const CareersPage = () => {
                 </>
               }
               description="Estudia y aplica los principios de la química para desarrollar procesos y productos."
-              link="#"
+              link="/career/quimica"
             />
 
             <CareerCard
@@ -146,14 +146,21 @@ const CareersPage = () => {
               altText="Ingeniería en Sistemas Computacionales"
               title="Ingeniería en Sistemas Computacionales"
               description="Diseña y desarrolla sistemas informáticos avanzados."
-              link="#"
+              link="/career/jomicool"
             />
             <CareerCard
               imgSrc="../../src/assets/images/carreras/con-img.jpg"
               altText="Ingeniería en Semiconductores"
               title="Ingeniería en Semiconductores"
               description="Diseña y desarrolla dispositivos semiconductores avanzados."
-              link="#"
+              link="/career/semiconductores"
+            />
+            <CareerCard
+              imgSrc="../../src/assets/images/carreras/elc-img.jpeg"
+              altText="Ingeniería en Electrónica"
+              title="Ingeniería en Electrónica"
+              description="Diseño,desarrollo y aplicación de dispositivos y sistemas electrónicos."
+              link="/career/electronica"
             />
           </div>
         </section>
